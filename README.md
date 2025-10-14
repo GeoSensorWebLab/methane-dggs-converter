@@ -1,4 +1,4 @@
-# Methane Grid Calculation with DGGS
+# Harmonized Global to Regional Gridded Methane Inventories in DGGS
 
 A comprehensive data processing pipeline that standardizes global, national, and regional methane emission inventories into the rHEALPix DGGS. This project addresses the challenge of harmonizing diverse methane emission gridded inventories from multiple sources, temporal periods, spatial resolutions, and reporting units into a unified, spatially consistent framework for climate research and policy analysis.
 
