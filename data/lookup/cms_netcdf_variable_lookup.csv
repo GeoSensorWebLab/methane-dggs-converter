@@ -1,0 +1,11 @@
+variable,IPCC2006
+CH4_FLX_CA_Gas_Distribution,1B2biii5
+CH4_FLX_CA_Gas_Oil,1B2a
+CH4_FLX_CA_Gas_Processing,1B2biii3
+CH4_FLX_CA_Gas_Production,1B2biii2
+CH4_FLX_CA_Gas_Transmission,1B2biii4
+CH4_FLX_MX_Gas_Distribution,1B2biii5
+CH4_FLX_MX_Gas_Processing,1B2biii3
+CH4_FLX_MX_Gas_Production,1B2biii2
+CH4_FLX_MX_Gas_Transmission,1B2biii4
+CH4_FLX_MX_Oil,1B2a

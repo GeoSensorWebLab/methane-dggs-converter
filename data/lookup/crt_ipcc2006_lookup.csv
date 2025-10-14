@@ -1,0 +1,497 @@
+CRT-code,CRT-name,IPCC2006-code,IPCC2006-name,NOTE
+1,Energy,,,
+1, Total Energy,1,Energy,Energy
+1.A.,Fuel combustion activities (sectoral approach),1A,Fuel Combustion Activities,
+1.A.1.,Energy industries,1A1,Energy Industries,
+1.A.1.a.,Public electricity and heat production,1A1a,Main Activity Electricity and Heat Production,
+1.A.1.a.i.,Electricity generation,1A1ai,Electricity Generation,
+1.A.1.a.ii.,Combined heat and power generation,1A1aii,Combined Heat and Power Generation (CHP),
+1.A.1.a.iii.,Heat plants,1A1aiii,Heat Plants,
+1.A.1.b.,Petroleum refining,1A1b,Petroleum Refining,
+1.A.1.c.,Manufacture ofsolid fuels and other energy industries,1A1c,Manufacture ofsolid Fuels and Other Energy Industries,
+1.A.1.c.i.,Manufacture ofsolid fuels,1A1ci,Manufacture ofsolid Fuels,
+1.A.1.c.ii.,Oil and gas extraction,,,"This category is included in the IPCC Other energy industries"" as a sub-element"
+1.A.1.c.iii.,Other energy industries,1A1cii,Other Energy Industries,
+1.A.2.,Manufacturing industries and construction,1A2,Manufacturing Industries and Construction,
+1.A.2.a.,Iron andsteel,1A2a,Iron andsteel,
+1.A.2.b.,Non-ferrous metals,1A2b,Non-Ferrous Metals,
+1.A.2.c.,Chemicals,1A2c,Chemicals,
+1.A.2.d.,"Pulp, paper and print",1A2d,"Pulp, Paper and Print",
+1.A.2.e.,"Food processing, beverages and tobacco",1A2e,"Food Processing, Beverages and Tobacco",
+1.A.2.f.,Non-metallic minerals,1A2f,Non-Metallic Minerals,
+1.A.2.g.,Other,,,This CRT category is calculated based onsub-categories listed in the drop-down list. 
+1.A.2.g.i.,Manufacturing of machinery,1A2h,Machinery,
+1.A.2.g.ii.,Manufacturing of transport equipment,1A2g,Transport Equipment,
+1.A.2.g.iii.,Mining (excluding fuels) and quarrying,1A2i,Mining (excluding fuels) and Quarrying,
+1.A.2.g.iv.,Wood and wood products,1A2j,Wood and Wood Products,
+1.A.2.g.v.,Construction,1A2k,Construction,
+1.A.2.g.vi.,Textile and leather,1A2l,Textile and Leather,
+1.A.2.g.vii.,Off-road vehicles and other machinery,1A3eii,Off-road,This IPCC category covers multiple CRT categories.
+1.A.2.g.viii.,Other (please specify),1A2m,Non-specified Industry,
+1.A.3.,Transport,1A3,Transport,
+1.A.3.a.,Domestic aviation,1A3aii,Domestic Aviation,
+1.A.3.b.,Road transportation,1A3b,Road Transportation,
+1.A.3.b.i.,Cars,1A3bi,Cars,
+,,1A3bi1,Passenger Cars With 3-way Catalysts,
+,,1A3bi2,Passenger Cars Without 3-way Catalysts,
+1.A.3.b.ii.,Light duty trucks,1A3bii,Light-duty Trucks,
+,,1A3bii1,Light-duty Trucks With 3-way Catalysts,
+,,1A3bii2,Light-duty Trucks Without 3-way Catalysts,
+1.A.3.b.iii.,Heavy duty trucks and buses,1A3biii,Heavy-duty Trucks and Buses,
+1.A.3.b.iv.,Motorcycles,1A3biv,Motorcycles,
+1.A.3.b.v.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+,,1A3bv,Evaporative Emissions from Vehicles,
+1.A.3.c.,Railways,1A3c,Railways,
+1.A.3.d.,Domestic navigation,1A3dii,Domestic Water-borne Navigation,
+1.A.3.e.,Other transportation,1A3e,Other Transportation,
+1.A.3.e.i.,Pipeline transport,1A3ei,Pipeline Transport,
+1.A.3.e.ii.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+,,1A3eii,Off-road,This IPCC category covers multiple CRT categories.
+1.A.4.,Other sectors,1A4,Other sectors,
+1.A.4.a.,Commercial/institutional,1A4a,Commercial/Institutional,
+1.A.4.a.i.,Stationary combustion,,,
+1.A.4.a.ii.,Off-road vehicles and other machinery,1A3eii,Off-road,Off-road This IPCC category covers multiple CRT categories.
+1.A.4.b.,Residential,1A4b,Residential,
+1.A.4.b.i.,Stationary combustion,,,
+1.A.4.b.ii.,Off-road vehicles and other machinery,1A3eii,Off-road,Off-road This IPCC category covers multiple CRT categories.
+1.A.4.c.,Agriculture/forestry/fishing,1A4c,Agriculture/Forestry/Fishing/Fish Farms,
+1.A.4.c.i.,Stationary,1A4ci,Stationary,
+1.A.4.c.ii.,Off-road vehicles and other machinery,1A4cii,Off-road Vehicles and Other Machinery,
+1.A.4.c.iii.,Fishing,1A4ciii,Fishing (mobile combustion),
+1.A.5.,Other,1A5,Non-Specified,
+1.A.5.a.,Stationary,1A5a,Stationary,
+1.A.5.b.,Mobile,1A5b,Mobile,
+,,1A5bi,Mobile (Aviation Component),
+,,1A5bii,Mobile (Water-borne Component),
+,,1A5biii,Mobile (Other),
+1.A(b).,CO2 from fuel combustion activities-reference approach (IPCC worksheet fuel combustion activities),,,"In the 2006 IPCC Guidelines, information for table 1.A(b) of the CRT is based on underlying information in table 1.5 Energy Background Table: Reference Approach in annex 8A.2 of the 2006 IPCC Guidelines volume 1."
+1.A(c).,Comparison of CO2 emissions from fuel combustion ,,,Information in both the CRT and the 2006 IPCC Guidelines is calculated based on underlying information insectoral and reference and Approach.
+1.A(d).,"Feedstocks, reductants and other non-energy use of fuels",,,"In the 2006 IPCC Guidelines, information for table. A(d) of the CRT is based on underlying information in table 1.5 Energy Page 4 of 25 Category names in the CRT Category names in the 2006 IPCC Guidelines Note Background Table: Reference Approach and table 2.12 I PPU Background Table: Allocation of CO2 emissions from Non-Energy Use of fossil fuels: IPPU and Other sectors in annex 8A.2 of the 2006 IPCC Guidelines volume 1. Information item: Waste incineration with energy recovery included as: Biomass Fossil fuels"
+1.B.,Fugitive emissions from fuels,1B,Fugitive Emissions from Fuels,
+1.B.1.,Solid fuels,1B1,Solid Fuels,
+1.B.1.a.,Coal mining and handling,1B1a,Coal Mining and Handling,
+1.B.1.a.i.,Underground mines,1B1ai,Underground Mines,
+1.B.1.a.i.1.,Mining activities,1B1ai1,Mining,
+1.B.1.a.i.2.,Post-mining activities,1B1ai2,Post-miningseam Gas Emissions,
+1.B.1.a.i.4.,Flaring of drained methane or conversion of methane to CO,21B1ai4,Flaring of Drained Methane or Conversion of Methane to CO2,
+1.B.1.a.i.5.,Other (please specify ),,, This CRT category is calculated based on country-specific sub-categories in the CRT.
+1.B.1.a.ii.,Surface mines,1B1aii,Surface Mines,
+1.B.1.a.ii.1.,Mining activities,1B1aii1,Mining,
+1.B.1.a.ii.2.,Post-mining activities,1B1aii2,Post-miningseam Gas Emissions,
+1.B.1.a.ii.3.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+1.B.1.b.,Fuel transformation,1B1c,Solid Fuel Transformation,
+1.B.1.b.i.,Charcoal and biochar production,,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes Charcoal and Biochar Production
+1.B.1.b.ii.,Coke production,,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes Coke Production
+1.B.1.b.iii.,Coal to liquids,,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes Gasification Transformation
+1.B.1.b.iv.,Gas to liquids,,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes Gasification Transformation
+1.B.1.b.v.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+1.B.1.c.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+,,1B1b,"Uncontrolled Combustion, and Burning Coal Dumps",
+1.B.2.,Oil and natural gas and other emissions from energy production,1B2,Oil and Natural Gas,
+1.B.2.a.,Oil,1B2a,Oil,
+1.B.2.a.i.,Exploration,1B2aiii1,Exploration,
+1.B.2.a.ii.,Production and upgrading,1B2aiii2,Production and Upgrading,
+1.B.2.a.iii.,Transport,1B2aiii3,Transport,
+1.B.2.a.iv.,Refining/storage,1B2aiii4,Refining,
+1.B.2.a.v.,Distribution of oil products,1B2aiii5,Distribution of Oil Products,
+1.B.2.a.vi.,Other,1B2aiii6,Other,
+1.B.2.a.vi.1.,Abandoned wells,1B2avii,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes Abandoned Oil Wells
+1.B.2.a.vi.2.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+1.B.2.b.,Natural gas,1B2b,Natural Gas,
+1.B.2.b.i.,Exploration,1B2biii1,Exploration,
+1.B.2.b.ii.,Production and gathering,1B2biii2,Production,
+1.B.2.b.iii.,Processing,1B2biii3,Processing,
+1.B.2.b.iv.,Transmission andstorage,1B2biii4,Transmission andstorage,
+1.B.2.b.v.,Distribution,1B2biii5,Distribution,
+1.B.2.b.vi.,Other,1B2biii6,Other,
+1.B.2.b.vi.1.,Gas post-meter,,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes Gas Post-Meter
+1.B.2.b.vi.2.,Abandoned wells,,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes Abandoned Gas Wells
+1.B.2.b.vi.3.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+1.B.2.c.,Venting and flaring,,,This CRT category is calculated based onsub-categories.
+1.B.2.c.i.,Venting,,,This CRT category is calculated based onsub-categories.
+1.B.2.c.i.1.,Oil,1B2ai,Venting,
+1.B.2.c.i.2.,Gas,1B2bi,Venting,
+1.B.2.c.i.3.,Combined,,,
+1.B.2.c.ii.,Flaring,,,This CRT category is calculated based onsub-categories.
+1.B.2.c.ii.1.,Oil,1B2aii,Flaring,
+1.B.2.c.ii.2.,Gas,1B2bii,Flaring,
+1.B.2.c.ii.3.,Combined,,,
+1.B.2.d.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+,,1B3,Other Emissions from Energy Production,
+1.C.,CO2 Transport and storage,1C,Carbon Dioxide Transport and Storage  ,
+1.C.1.,Transport of CO2,1C1,Transport of CO2,
+1.C.1.a.,Pipelines,1C1a,Pipelines,
+1.C.1.b.,Ships,1C1b,Ships,
+1.C.1.c.,Other (please specify),1C1c,Other (please specify),
+1.C.2.,Injection andstorage,1C2,Injection andstorage,
+1.C.2.a.,Injection,1C2a,Injection,
+1.C.2.b.,Storage,1C2b,Storage,
+1.C.3.,Other,1C3,Other,
+1.D.,Memo items,,,
+1.D.1.,International bunkers,,,This CRT category is calculated based onsub-categories.
+1.D.1.a.,International aviation (aviation bunkers),1A3ai,International Aviation (International Bunkers),
+1.D.1.b.,International navigation (marine bunkers),1A3di,International Water-borne Navigation (International Bunkers),
+1.D.2.,Multilateral operations,1A5c,Multilateral Operations,
+1.D.3.,CO2 emissions from biomass,,,"This CRT category is included in ""Table 6.A Trends of CO2 (3 of 3)"" in annex 8A.2 to the 2006 IPCC Guidelines volume 1, chapter 8 ."
+1.D.4.,CO2 captured,,,same as above
+1.D.4.a.,For domesticstorage,,,same as above
+1.D.4.b.,Forstorage in other count ries,,,same as above
+2,Industrial processes and product use,,,
+2,Total industrial processes,2,Industrial processes and product use,
+2.A.,Mineral industry,2A,Mineral Industry,
+2.A.1.,Cement production,2A1,Cement Production,
+2.A.2.,Lime production,2A2,Lime Production,
+2.A.3.,Glass production,2A3,Glass Production,
+2.A.4.,Other process uses of carbonates,2A4,Other Process Uses of Carbonates,
+2.A.4.a.,Ceramics,2A4a,Ceramics,
+2.A.4.b.,Other uses of soda ash,2A4b,Other Uses of soda Ash,
+2.A.4.c.,Non-metallurgical magnesium production,2A4c,Non Metallurgical Magnesia Production,
+2.A.4.d.,Other (please specify),2A4d,Other (please specify),
+,,2A5  ,Other (please specify),
+2.B.,Chemical industry,2B,Chemical Industry,
+2.B.1.,Ammonia production,2B1,Ammonia Production,
+2.B.2.,Nitric acid production,2B2,Nitric Acid Production,
+2.B.3.,Adipic acid production,2B3,Adipic Acid Production,
+2.B.4.,"Caprolactam, glyoxal and glyoxylic acid production",2B4,"Caprolactam, Glyoxal and Glyoxylic Acid Production","Caprolactam, Glyoxal and Glyoxylic Acid Production"
+2.B.4.a.,Caprolactam,,,"This category is included in the IPCC Caprolactam, Glyoxal and Glyoxylic Acid Production as a sub-element."
+2.B.4.b.,Glyoxal,,,same as above
+2.B.4.c.,Glyoxylic acid,,,same as above
+2.B.5.,Carbide production,2B5,Carbide Production,
+2.B.5.a.,Silicon carbide,,,This category is included in the IPCC Carbide Production as a sub-element.
+2.B.5.b.,Calcium carbide,,,same as above
+2.B.6.,Titanium dioxide production,2B6,Titanium Dioxide Production,
+2.B.7.,Soda ash production,2B7,Soda Ash Production,
+2.B.8.,Petrochemical and carbon black production,2B8,Petrochemical and Carbon Black Production,
+2.B.8.a.,Methanol,2B8a,Methanol,
+2.B.8.b.,Ethylene,2B8b,Ethylene,
+2.B.8.c.,Ethylene dichloride and vinyl chloride monomer,2B8c,Ethylene Dichloride and Vinyl Chloride Monomer,
+2.B.8.d.,Ethylene oxide,2B8d,Ethylene Oxide,
+2.B.8.e.,Acrylonitrile,2B8e,Acrylonitrile,
+2.B.8.f.,Carbon black,2B8f,Carbon Black,
+2.B.8.g.,Other,,,This CRT category is calculated based onsub-categories listed in the drop-down list. 
+2.B.8.g.i.,Styrene,,,
+2.B.8.g.ii.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+2.B.9.,Fluorochemical production,2B9,Fluorochemical Production,
+2.B.9.a.,By-product emissions,2B9a,By-product Emissions,
+2.B.9.a.i.,Production of HCFC-22,,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes HCFC-22 Production
+2.B.9.a.ii.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+2.B.9.b.,Fugitive emissions,2B9b,Fugitive Emissions,
+2.B.9.b.i.,Production of HFC-134a,,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes HFC Production (specify HFC(s) produced).
+ 2.B.9.b.ii.,Production of SF6,,,"The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes ""2 B 9 dsF6 Production""."
+ 2.B.9.b.iii.,Production of NF3,,,"The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes ""2 B 9 e NF3 Production""."
+2.B.9.b.iv.,Other (please specify),,,This CRT category is calculated based on country-specifics ub-categories in the CRT.
+2.B.10.,Other,2B10,Other (please specify),Other ( please specify)
+2.B.10.a.,Hydrogen production,,,The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes Hydrogen Production
+2.B.10.b.,Other (please specify,,, This CRT category is calculated based on country-specific sub-categories in the CRT.
+2.C.,Metal industry,2C,Metal Industry,
+2.C.1.,Iron and steel production,2C1,Iron andsteel Production,
+2.C.1.a.,Steel,,,This category is included in the IPCC Iron andsteel Production as a sub-element.
+2.C.1.b.,Pig iron,,,same as above
+2.C.1.c.,Direct reduced iron,,,same as above
+2.C.1.d.,Sinter,,,same as above
+2.C.1.e.,Pellet,,,same as above
+2.C.1.f.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+2.C.2.,Ferroalloys production,2C2,Ferroalloys Production,
+2.C.3.,Aluminium production,2C3,Aluminium Production,
+2.C.3.a.,By-product emissions,,,This category is included in the IPCC Aluminium Production as a sub-element.
+2.C.3.b.,F-gases used in foundrie,,,This category is included in the IPCC Magnesium as a sub-element.
+2.C.4.,Magnesium production,2C4,Magnesium Production,
+2.C.5.,Lead production,2C5,Lead Production,
+2.C.6.,Zinc production,2C6,Zinc Production,
+2.C.7.,Other,2C7,Other (please specify),
+2.C.7.a.,Rare earths production,,,"The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes ""Rare Earths Production""."
+2.C.7.b.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+2.D.,Non-energy products from fuels andsolvent use,2D,Non-Energy Products from Fuels andsolvent Use,
+2.D.1.,Lubricant use,2D1,Lubricant Use,
+2.D.2.,Paraffin wax use,2D2,Paraffin Wax Use,
+2.D.3.,Other,,,This CRT category is calculated based onsub-categories listed in the drop-down list. 
+2.D.3.a.,Solvent use,2D3,Solvent Use,
+2.D.3.b.,Road paving with asphalt,,,
+2.D.3.c.,Asphalt roofing,,,
+2.D.3.d.,Other (please specify),2D4,Other (please specify),Other (please specify)
+,,1A3bvi,Urea-based Catalysts,
+2.E.,Electronics industry,2E,Electronics Industry,
+2.E.1.,Integrated circuit orsemiconductor,2E1,Integrated Circuit orsemiconductor,
+2.E.2.,TFT flat panel display,2E2,TFT Flat Panel Display,
+2.E.3.,Photovoltaics,2E3,Photovoltaics,
+2.E.4.,Heat transfer fluid,2E4,Heat Transfer Fluid,
+2.E.5.,Other,2E5,Other (please specify),
+2.E.5.a.,Microelectromechanicalsystems (MEMS),2E4,Heat Transfer Fluid,"The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes ""Microelectromechanicalsystems (MEMS)""."
+2.E.5.b.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+2.F.,Product uses assubstitutes for ODS,2F,Product Uses assubstitutes for Ozone Depletingsubstances,
+2.F.1.,Refrigeration and air conditioning,2F1,Refrigeration and Air Conditioning,
+,,2F1a,Refrigeration andstationary Air Conditioning,
+2.F.1.a.,Commercial refrigeration,,,"This CRT category is included in ""F 1 a Refrigeration andstationary Air Conditioning"" as a sub-element."
+2.F.1.b.,Domestic refrigeration,,,same as above
+2.F.1.c.,Industrial refrigeration,,,same as above
+2.F.1.d.,Transport refrigeration,,,same as above
+2.F.1.e.,Mobile air-conditioning,2F1b,Mobile Air Conditioning,
+2.F.1.f.,Stationary air-conditioning,,,"This CRT category is included in ""F 1 a Refrigeration andstationary Air Conditioning"" as a sub-element."
+2.F.2.,Foam blowing agents,2F2,Foam Blowing Agents,
+2.F.2.a.,Closed cells,,,"This CRT category is included in ""F 2 Foam Blowing Agents"" as a sub-element."
+2.F.2.b.,Open cells,,,same as above
+2.F.3.,Fire protection,2F3,Fire Protection,
+2.F.4.,Aerosols,2F4,Aerosols,
+2.F.4.a.,Metered dose inhalers,,,"This CRT category is included in ""F 4 Aerosols"" as a sub-element."
+2.F.4.b.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+2.F.5.,Solvents,2F5,Solvents,
+2.F.6.,Other applications,2F6,Other Applications (please specify),
+2.F.6.a.,Emissive,,,"This CRT category is included in ""F 6 Other Applications (please specify)"" as a sub-element."
+2.F.6.b.,Contained,,,same as above
+2.G.,Other product manufacture and use,2G,Other Product Manufacture and Use,
+2.G.1.,Electrical equipment,2G1,Electrical Equipment,
+,,2G1a,Manufacture of Electrical Equipment,
+,,2G1b,Use of Electrical Equipment,
+,,2G1c,Disposal of Electrical Equipment,
+2.G.2.,SF6 and PFCs from other product use,2G2,SF6 and PFCs from Other Product Uses,
+2.G.2.a.,Military applications,2G2a,Military Applications,
+2.G.2.b.,Accelerators,2G2b,Accelerators,
+2.G.2.c.,Soundproof windows,,,"This category is included in the IPCC ""2 G 2 c Other (please specify)"" as a sub-element."
+2.G.2.d.,Adiabatic pro perties:shoes and tyres,,,same as above
+2.G.2.e.,Other,2G2c,Other (please specify) ,
+2.G.2.e.i.,Waterproofing electronic circuits,,,"The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes ""G 2 c Waterproofing of Electronic Circuits""."
+2.G.2.e.ii.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+2.G.3.,N2O from product uses,2G3,N2O from Product Uses,
+2.G.3.a.,Medical applications,2G3a,Medical Applications,
+2.G.3.b.,Other,,,This CRT category is calculated based onsub-categories listed in the drop-down list. 
+2.G.3.b.i.,Propellant for pressure and aerosol products,2G3b,Propellant for Pressure and Aerosol Products,
+2.G.3.b.ii.,Other (please specify),2G3c,Other (please specify),
+2.G.4.,Other (please specify),2G4,Other (please specify),
+2.H.,Other (please specify),2H,H Other ,
+2.H.1.,Pulp and paper,2H1,Pulp and Paper Industry,
+2.H.2.,Food and beverages industry,2H2,Food and Beverages Industry,
+2.H.3.,Other (please specify),2H3,Other (please specify),
+3,Agriculture,,,
+3,Total agriculture,3,"Agriculture, Forestry, and Other Land Use",
+3.A.,Enteric fermentation,3A1,Enteric Fermentation,
+3.A.1.,Cattle,3A1a,Cattle,
+3.A.1.a.,Dairy cattle,3A1ai,Dairy Cows,
+3.A.1.b.,Non-dairy cattle,3A1aii,Other Cattle,
+3.A.1.a.,Other,,,This CRT category is calculated based onsub-categories listed in the drop-down list. 
+3.A.1.a.i.,Mature dairy cattle,,,"This category is included in the IPCC ""Dairy Cows"" as a sub-element."
+3.A.1.a.ii.,Other mature cattle,,,"This category is included in the IPCC ""Other Cattle"" as a sub-element."
+3.A.1.a.iii.,Growing cattle,,,"This category is included in the IPCC ""Other Cattle"" as a sub-element."
+3.A.1.a.iv.,Other (please specify),,,This CRT category is calculated based onsub-categories listed in the drop-down list.
+3.A.2.,Sheep,3A1c,Sheep,
+3.A.2.a.,Other (please specify),,,This CRT category is calculated based onsub-categories listed in the drop-down list.
+3.A.3.,Swine,3A1h,Swine,
+3.A.3.a.,Other (please specify),,,This CRT category is calculated based onsub-categories listed in the drop-down list.
+3.A.4.,Other livestock,,,This CRT category is calculated based onsub-categories listed in the drop-down list.
+3.A.4.a.,Buffalo,3A1b,Buffalo,
+3.A.4.b.,Camels,3A1e,Camels,
+3.A.4.c.,Deer,,,This category is included in the IPCC 3A1j Other (please specify)
+3.A.4.d.,Goats,3A1d,Goats,
+3.A.4.e.,Horses,3A1f,Horses,
+3.A.4.f.,Mules and asses,3A1g,Mules and Asses,
+3.A.4.g.,Poultry,,,
+3.A.4.h.,Other,3A1j,Other (please specify),"This CRT category is calculated based onsub-categories listed in the drop-down list. This IPCC category is included in ""Other (please specify)"" as a sub-element. "
+3.A.4.h.i.,Rabbit,,,
+3.A.4.h.ii.,Reindeer,,,
+3.A.4.h.iii.,Ostrich,,,
+3.A.4.h.iv.,Fur-bearing animals,,,
+3.A.4.h.v.,Other (please specify),3A1j,Other (please specify),
+3.B.,Manure management,3A2,Manure Management,
+3.B.1.,Cattle,3A2a,Cattle,
+3.B.1.a.,Dairy cattle,3A2ai,Dairy Cows,
+3.B.1.b.,Non-dairy cattle,3A2aii,Other Cattle,
+3.B.1.a.,Other,,,This CRT category is calculated based onsub-categories listed in the drop-down list.
+3.B.1.a.i.,Mature dairy cattle,3A2ai,Dairy Cows,"This category is included in the IPCC ""Dairy Cows"" as a sub-element."
+3.B.1.a.ii.,Other mature cattle,3A2aii,Other Cattle,"This category is included in the IPCC ""Other Cattle "" as a sub-element."
+3.B.1.a.iii.,Growing cattle,3A2aii,Other Cattle,"This category is included in the IPCC ""Other Cattle "" as a sub-element."
+3.B.1.a.iv.,Other (please specify),,,
+3.B.2.,Sheep,3A2c,Sheep,
+3.B.2.a.,Other (please specify),,,
+3.B.3.,Swine,3A2h,Swine,
+3.B.3.a.,Other (please specify),,,
+3.B.4.,Other livestock,,,This CRT category is calculated based onsub-categories listed in the drop-down list. 
+3.B.4.a.,Buffalo,3A2b,Buffalo,
+3.B.4.b.,Camels,3A2e,Camels,
+3.B.4.c.,Deer,,,"This category is included in the IPCC ""Other (please specify)"" as a sub-element."
+3.B.4.d.,Goats,3A2d,Goats,
+3.B.4.e.,Horses,3A2f,Horses,
+3.B.4.f.,Mules and Asses,3A2g,Mules and Asses,
+3.B.4.g.,Poultry,3A2i,Poultry,
+3.B.4.h.,Other,,,"This CRT category is calculated based onsub-categories listed in the drop-down list. This IPCC category is included in ""Other (please specify)"" as a sub-element. "
+3.B.4.h.i.,Rabbit,,,"This category is included the IPCC in ""Other (please specify)"" as a sub-element."
+3.B.4.h.ii.,Reindeer,,,same as above
+3.B.4.h.iii.,Ostrich,,,same as above
+3.B.4.h.iv.,Fur-bearing animals,,,same as above
+3.B.4.h.v.,Other (please specify),3A2j,Other (please specify),
+3.B.5.,Indirect N2O emissions,3C6,Indirect N2O Emissions from Manure Management,
+3.C.,Rice cultivation,3C7,Rice Cultivations,
+3.C.1.,Irrigated,,,"This category is included in the IPCC ""Rice Cultivations"" as a sub-element."
+3.C.1.a.,Continuously flooded,,,same as above
+3.C.1.b.,Intermittently flooded,,,same as above
+3.C.1.b.i.,Single aeration,,,same as above
+3.C.1.b.ii.,Multiple aeration,,,same as above
+3.C.2.,Rain-fed,,,same as above
+3.C.2.a.,Flood-prone,,,same as above
+3.C.2.b.,Drought-prone,,,same as above
+3.C.3.,Deep water,,,same as above
+3.C.3.a.,Water depth 50-100 cm,,,
+3.C.3.b.,Water depth > 100 cm,,,
+3.C.4.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+3.D.,Agricultural soils,,,This CRT category is calculated based on sub-categories.
+3.D.1.,Direct N2O emissions from managed soils,3C4,Direct N2O Emissions from managed soils,This IPCC category covers multiple CRT categories.
+3.D.1.a.,Inorganic N fertilizers,,,"This CRT category is included in ""table.7 AFOLU Background Table: Direct N2O emissions from managed soils"" in annex 8A.2 to the 2006 IPCC Guidelines volume 1, chapter 8"
+3.D.1.b.,Organic N fertilizers,,,same as above
+3.D.1.b.i.,Animal manure applied to soils,,,same as above
+3.D.1.b.ii.,Sewagesludge applied tsoils,,,same as above
+3.D.1.b.iii.,Other organic fertilizers applied to soils,,,
+3.D.1.c.,Urine and dung deposited by grazing animals,,,"This CRT category is included in ""table.7 AFOLU Background Table: Direct N2O emissions from managed soils"" in annex 8A.2 to the 2006 IPCC Guidelines volume 1, chapter 8"
+3.D.1.d.,Crop residues,,,same as above
+3.D.1.e.,Mineralization/immobilization associated with loss/gain of soil organic mattersame as above,,,same as above
+3.D.1.f.,Cultivation of organicsoils (i.e. histosols),,,same as above
+3.D.1.g.,Other,,,
+3.D.2.,Indirect N2O Emissions from managed soils,3C5,Indirect N2O Emissions from managed soils,This IPCC category covers multiple CRT categories.
+3.D.2.a.,Atmospheric deposition,,,"This CRT category is included in ""table.8 AFOLU Background Table: Indirect N2O emissions from managed soils and Manu re Management (3 C 5 and 3 C 6)"" in annex 8A.2 to the 2006 IPCC Guidelines volume 1, chapter 8"
+3.D.2.b.,Nitrogen leaching and run-off,,,same as above
+3.E.,Prescribed burning ofsavannahs,3C1,Emissions from Biomass Burning,This IPCC category covers multiple CRT categories.
+3.E.1.,Forest land (specify ecological zone),,,"This CRT category is included in ""3C1a Biomass Burning in Forest Lands in Forest Land"" as a sub-element."
+3.E.2.,Grassland (specify ecological zone),,,"This CRT category is included in "" 3C1c Biomass Burning in Grasslandsin Grassland"" as a sub-element."
+3.F.,Field burning of agricultural residues,3C1b,Biomass Burning in Croplands,This IPCC category covers multiple CRT categories.
+3.F.1.,Cereal,,,This CRT category is calculated based onsub-categories.
+3.F.1.a.,Wheat,,,"This category is included in the IPCC ""3C1b Biomass Burning in Croplands"" as a sub-element."
+3.F.1.b.,Barley,,,"The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes ""Other crops"" under ""3C1b Biomass Burning in Croplands"" as a sub-element."
+3.F.1.c.,Maize,,,"This category is included in the IPCC ""3C1b Biomass Burning in Croplands"" as a sub-element."
+3.F.1.d.,Other (please specify),,,"This CRT category is calculated based on country-specific sub-categories in the CRT. The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes ""Other crops"" under ""3C1b Biomass Burning in Croplands"" as a sub-element."
+3.F.2.,Pulses,,,
+3.F.2.a.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+3.F.3.,Tubers and roots,,,
+3.F.3.a.,Other (please specify),,,"This CRT category is calculated based on country-specific sub-categories in the CRT. The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes ""Other crops"" under ""Emissions from Biomass Burning in Cropland"" as a sub-element."
+3.F.4.,Sugar cane,,,"This category is included in the IPCC ""Biomass Burning in Cropland"" as a sub-element."
+3.F.5.,Other (please specify),,,"This CRT category is calculated based on country-specific sub-categories in the CRT. The 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories includes ""Other crops"" under ""Emissions from Biomass Burning in Cropland"" as a sub-element."
+3.G.,Liming,3C2,Liming,
+3.G.1.,Limestone CaCO3,,,"This CRT category is included in ""table 3.5 AFOLU Background Table: CO2 emissions from Liming (3 C 2)"" in annex 8A.2 to the 2006 IPCC Guidelines volume 1, chapter 8."
+3.G.2.,Dolomite CaMg(CO3)2,,,"This CRT category is included in ""table 3.5 AFOLU Background Table: CO2 emissions from Liming (3 C 2)"" in annex 8A.2 to the 2006 IPCC Guidelines volume 1, chapter 8."
+3.H.,Urea application,3C3,Urea Application,
+3.I.,Other carbon-containing fertilizers,,,
+3.J.,Other (please specify),3C8,Other (please specify),
+4,"Land Use, Land-Use Change and Forestry",,,
+4,Total LULUCF,3B,Land,
+4.A.,Forest land,3B1,Forest Land,
+4.A.1.,Forest land remaining forest land,3B1a,Forest Land Remaining Forest Land,
+4.A.2.,Land converted to forest land,3B1b,Land Converted to Forest Land,
+4.A.2.a.,Cropland converted to forest land,3B1bi,Cropland Converted to Forest Land,
+4.A.2.b.,Grassland converted to forest land,3B1bii,Grassland Converted to Forest Land,
+4.A.2.c.,Wetlands converted to forest land,3B1biii,Wetlands Converted to Forest Land,
+4.A.2.d.,Settlements converted to forest land,3B1biv,Settlements Converted to Forest Land,
+4.A.2.e.,Other land converted to forest land,3B1bv,Other Land Converted to Forest Land,
+4.B.,Cropland,3B2,Cropland,
+4.B.1.,Cropland remaining cropland,3B2a,Cropland Remaining Cropland,
+4.B.2.,Land converted to cropland,3B2b,Land Converted to Cropland,
+4.B.2.a.,Forest land converted to cropland,3B2bi,Forest Converted to Cropland,
+4.B.2.b.,Grassland converted to cropland,3B2bii,Grassland Converted to Cropland,
+4.B.2.c.,Wetlands converted to cropland,3B2biii,Wetlands Converted to Cropland,
+4.B.2.d.,Settlements converted to cropland,3B2biv,Settlements Converted to Cropland,
+4.B.2.e.,Other land converted to cropland,3B2bv,Other Converted to Cropland,
+4.C.,Grassland,3B3,Grassland,
+4.C.1.,Grassland remaining grassland,3B3a,Grassland Remaining Grassland,
+4.C.2.,Land converted to grassland,3B3b,Land Converted to Grassland,
+4.C.2.a.,Forest land converted to grassland,3B3bi,Forest Converted to Grassland,
+4.C.2.b.,Cropland converted to grassland,3B3bii,Cropland Converted to Grassland,
+4.C.2.c.,Wetlands converted to grass land,3B3biii,Wetlands Converted to Grassland,
+4.C.2.d.,Settlements converted to grassland,3B3biv,Settlements Converted to Grassland,
+4.C.2.e.,Other land converted to grassland,3B3bv,Other Converted to Grassland,
+4.D.,Wetlands,3B4,Wetlands,
+4.D.1.,Wetlands remaining wetlands,3B4a,Wetlands Remaining Wetlands,
+4.D.1.a.,Peat extraction remaining peat extraction,3B4ai,Peatlands Remaining peatlands,
+4.D.1.b.,Flooded land remaining flooded land,3B4aii,Flooded Land Remaining Flooded Land,
+4.D.1.c.,Other wetlands remaining other wetlands,,,The 2013 supplement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories: Wetlands includes 3B4aiii Other wetlands remaining other wetlands
+4.D.1.c.i.,Coastal wetlands,,," This category is included as a sub-element in ""Other wetlands remaining other wetlands"", which is from the 2013supplement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories: Wetlands."
+4.D.2.,Land converted to wetlands,3B4b,Land Converted to Wetlands,
+4.D.2.a.,Lands converted to peat extraction,3B4bi,Land Converted for Peat Extraction,
+4.D.2.a.i.,Forest land converted to peat extraction,,,"This category is included in the IPCC ""Land Converted for Peat Extraction"" as a sub-element."
+4.D.2.a.ii.,Cropland converted to peat extraction,,,same as above
+4.D.2.a.iii.,Grassland converted to peat extraction,,,same as above
+4.D.2.a.iv.,Settlements converted to peat extraction,,,same as above
+4.D.2.a.v.,Other land converted to peat extraction,,,same as above
+4.D.2.b.,Land converted to flooded land,3B4bii,Land Converted to Flooded Land,
+4.D.2.b.i.,Forest land converted to flooded land,,,"This category is included in the IPCC ""Land Converted to Flooded Land"" as a sub-element."
+4.D.2.b.ii.,Cropland converted to flooded land,,,same as above
+4.D.2.b.iii.,Grassland converted to flooded land,,,same as above
+4.D.2.b.iv.,Settlements converted to flooded land,,,same as above
+4.D.2.b.v.,Other land converted to flooded land,,,same as above
+4.D.2.c.,Land converted to other wetlands,3B4biii,Land Converted to Other Wetlands,
+4.D.2.c.i.,Forest land converted to other wetlands,,," This category is included in the IPCC ""Land Converted to Other Wetlands"" as a sub-element."
+4.D.2.c.ii.,Cropland converted to other wetlands,,,same as above
+4.D.2.c.iii.,Grassland converted to other wetlands,,,same as above
+4.D.2.c.iv.,Settlements converted to other wetlands,,,same as above
+4.D.2.c.v.,Other land converted to other wetlands,,,same as above
+4.E.,Settlements,3B5,Settlements,
+4.E.1.,Settlements remaining settlements,3B5a,Settlements remaining settlements,
+4.E.2.,Land converted to settlements,3B5b,Land Converted to settlements,
+4.E.2.a.,Forest land converted to settlements,3B5bi,Forest Converted to settlements,
+4.E.2.b.,Cropland converted to settlements,3B5bii,Cropland Converted to settlements,
+4.E.2.c.,Grassland converted to settlements,3B5biii,Grassland Converted to settlements,
+4.E.2.d.,Wetlands converted to settlements,3B5biv,Wetlands Converted to settlements,
+4.E.2.e.,Other Land converted to settlements,3B5bv,Other Converted to settlements,
+4.F.,Other land,3B6,Other Land,
+4.F.1.,Other land remaining other land,3B6a,Other Land Remaining Other Land,
+4.F.2.,Land converted to other land,3B6b,Land Converted to Other Land,
+4.F.2.a.,Forest land converted to other lands,3B6bi,Forest Land Converted to Other Land,
+4.F.2.b.,Cropland converted to other lands,3B6bii,Cropland Converted to Other Land,
+4.F.2.c.,Grassland converted to other lands,3B6biii,Grassland Converted to Other Land,
+4.F.2.d.,Wetlands converted to other lands,3B6biv,Wetlands Converted to Other Land,
+4.F.2.e.,Other Land converted to other lands,3B6bv,Settlements Converted to Other Land,
+4.G.,Harvested wood products,3D1,Harvested Wood Products,
+4.G.1.,Solid wood,,,
+4.G.1.a.,Sawnwood,,,"This CRT category is included in ""Harvested Wood Products"" as a sub-element."
+4.G.1.b.,Wood panelssame as above,,,
+4.G.1.c.,Othersolid wood productssame as above,,,
+4.G.2.,Paper and paperboardsame as above,,,
+4.G.2.a.,Other (please specify)same as above,,,
+4.G.3.,Other (please specify),,,"This CRT category is included in ""Harvested Wood Products"" as a sub-element."
+4.H.,Other (please specify),3D2,Other (please specify),This CRT category is calculated based onsub-categories.
+5,Waste,,,
+5,Total waste,4,WASTE,
+5.A.,Solid waste disposal,4A,Solid Waste Disposal,
+5.A.1.,Managed waste disposalsites,4A1,Managed Waste Disposalsites,
+5.A.1.a.,Anaerobic ,,,"This category is included in the IPCC ""Managed Waste Disposalsites"" as a sub-element."
+5.A.1.b.,Semi-aerobic,,,"This category is included in the IPCC ""Managed Waste Disposalsites"" as a sub-element. "
+5.A.1.c.,Active-aeration,,,"This CRT category is included as a sub-element of ""Managed Waste Disposalsites"" in the 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories."
+5.A.2.,Unmanaged waste disposalsites,4A2,Unmanaged Waste Disposalsites,
+5.A.3.,Uncategorized waste disposalsites,4A3,Uncategorised Waste Disposalsites,
+5.B.,Biological treatment ofsolid waste,4B,Biological Treatment ofsolid Waste,
+5.B.1.,Composting,,,"This category is included in the IPCC ""Biological Treatment of solid Waste"" as a sub-element."
+5.B.1.a.,Municipalsolid wastesame as above,,,
+5.B.1.b.,Other (please specify) ,,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+5.B.2.,Anaerobic digestion at biogas facilities ,,,"This category is included in the IPCC ""Biological Treatment ofsolid Waste"" as a sub-element."
+5.B.2.a.,Municipalsolid wastesame as above,,,
+5.B.2.b.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+5.C.,Incineration and open burning of waste,4C,Incineration and Open Burning of Waste,
+5.C.1.,Waste incineration,4C1,Waste Incineration,
+5.C.1.a.,Biogenic,,,
+5.C.1.a.i.,Municipalsolid waste,,,
+5.C.1.a.ii.,Other,,,This CRT category is calculated based onsub-categories listed in the drop-down list. Drop down list
+5.C.1.a.ii.1.,Industrialsolid wastes,,,
+5.C.1.a.ii.2.,Hazardous waste,,,
+5.C.1.a.ii.3.,Clinical waste,,,
+5.C.1.a.ii.4.,Sewagesludge,,,
+5.C.1.a.ii.5.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+5.C.1.b.,Non-biogenic,,,This CRT category is calculated based onsub-categories.
+5.C.1.b.i.,Municipalsolid waste,,,"This category is included in the IPCC ""Waste Incineration"" as a sub-element."
+5.C.1.b.ii.,Other,,,This CRT category is calculated based onsub-categories listed in the drop-down list.
+5.C.1.b.ii.1.,Industrialsolid wastes,,,"This category is included in the IPCC ""Waste Incineration"" as a sub-element."
+5.C.1.b.ii.2.,Hazardous waste,,,same as above
+5.C.1.b.ii.3.,Clinical waste,,,same as above
+5.C.1.b.ii.4.,Sewagesludge,,,same as above
+5.C.1.b.ii.5.,Fossil liquid waste,,,same as above
+5.C.1.b.ii.6.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+5.C.2.,Open burning of waste,4C2,Open Burning of Waste,
+5.C.2.a.,Biogenic,,,
+5.C.2.a.i.,Municipalsolid waste,,,
+5.C.2.a.ii.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+5.C.2.b.,Non-biogenic,,,"This CRT category is calculated based onsub-categories.C.2.b .i. Municipalsolid waste This category is included the IPCC in ""4 C 2 Open Burning of Waste"" as a sub-element."
+5.C.2.b.ii.,Other (please specify),,,This CRT category is calculated based on country-specific sub-categories in the CRT.
+5.D.,Wastewater treatment and discharge,4D,Wastewater Treatment and Discharge,
+5.D.1.,Domestic wastewater,4D1,Domestic Wastewater Treatment and Discharge,
+5.D.2.,Industrial wastewater,4D2,Industrial Wastewater Treatment and Discharge,
+5.D.3.,Other,,,
+5.E.,Other (please specify),4E,Other (please specify),Other (please specify) Memo item:
+5.F.1.,Long-termstorage of C in waste disposalsites,,,"This CRT category is included in ""table.3 Waste Background Table: Long-termstorage of carbon Information items "" in annex 8A.2 to the 2006 IPCC Guidelines volume 1, chapter 8 ."
+5.F.2.,Annual change in total long-term Cstorage,,,same as above
+5.F.3.,Annual change in total long-term Cstorage in HWP waste,,,same as above
+6,Other,,,
+6,Other (please specify),5B,Other (please specify),
+,,5A,Indirect N2O emissions from the atmospheric deposition of Nitrogen in Nox and NH3,

@@ -1,0 +1,76 @@
+variable,IPCC2006,CRT
+1A (off-road combustion),1A3eii,1A2gvii
+1A (other minor combustion),1A4,1A4
+1A1a (electricity generation combustion),1A1ai,1A1ai
+1A1b (oil refining),1A1b,1A1b
+1A1cii (gas processing),1A1cii,1A1cii
+1A1cii (gas production),1A1cii,1A1cii
+1A1cii (offshore),1A1cii,1A1cii
+1A1cii (oil production),1A1cii,1A1cii
+1A1cii (oil sands),1A1cii,1A1cii
+1A3b (road transport combustion),1A3b,1A3b
+1A3ei (oil and gas transport),1A3ei,1A3ei
+1A4bi residential combustion (total),1A4b,1A4b
+1B1 (abandoned),1B1ai3,1B1ai3
+1B1 (surface),1B1aii,1B1aii
+1B1 (underground),1B1ai,1B1ai
+1B2aii (oil production),1B2aiii2,1B2aii
+1B2aii (oil sands),1B2aiii2,1B2aii
+1B2aiii (oil transport),1B2aiii3,1B2aiii
+1B2aiv (oil refining),1B2aiii4,1B2aiv
+1B2avi (oil abandoned),1B2aiii6,1B2avi
+1B2bii (gas production),1B2biii2,1B2bii
+1B2biii (gas processing),1B2biii3,1B2biii
+1B2biv (gas storage),1B2biii4,1B2biv
+1B2biv (gas transmission),1B2biii4,1B2biv
+1B2bv (gas distribution),1B2biii5,1B2bv
+1B2bvi (gas other),1B2biii6,1B2bvi
+1B2ci1 (oil production),1B2ai,1B2ci1
+1B2ci1 (oil sands),1B2ai,1B2ci1
+1B2ci1 (oil transport),1B2ai,1B2ci1
+1B2ci2 (gas distribution),1B2bi,1B2ci2
+1B2ci2 (gas processing),1B2bi,1B2ci2
+1B2ci2 (gas production),1B2bi,1B2ci2
+1B2ci2 (gas storage),1B2bi,1B2ci2
+1B2ci2 (gas transmission),1B2bi,1B2ci2
+1B2cii1 (oil production),1B2aii,1B2cii1
+1B2cii1 (oil refining),1B2aii,1B2cii1
+1B2cii1 (oil sands),1B2aii,1B2cii1
+1B2cii1 (oil transport),1B2aii,1B2cii1
+1B2cii2 (gas distribution),1B2bii,1B2cii2
+1B2cii2 (gas processing),1B2bii,1B2cii2
+1B2cii2 (gas production),1B2bii,1B2cii2
+1B2cii2 (gas storage),1B2bii,1B2cii2
+1B2cii2 (gas transmission),1B2bii,1B2cii2
+2B8 (petrochemicals),2B8,2B8
+2C1b (pig iron),2C1,2C1b
+3A (enteric fermentation) - Buffalo,3A1b,3A4a
+3A (enteric fermentation) - Camels,3A1e,3A4b
+3A (enteric fermentation) - Dairy Cattle,3A1ai,3A1a
+3A (enteric fermentation) - Deer,3A1j,3A4c
+3A (enteric fermentation) - Goats,3A1d,3A4d
+3A (enteric fermentation) - Horses,3A1f,3A4e
+3A (enteric fermentation) - Mules and Asses,3A1g,3A4f
+3A (enteric fermentation) - Non-Dairy Cattle,3A1aii,3A1b
+3A (enteric fermentation) - Other,3A1j,3A4h
+3A (enteric fermentation) - Sheep,3A1c,3A2
+3A (enteric fermentation) - Swine,3A1h,3A3
+3B (manure management) - Buffalo,3A2b,3B4a
+3B (manure management) - Camels,3A2e,3B4b
+3B (manure management) - Dairy Cattle,3A2ai,3B1a
+3B (manure management) - Deer,3A2j,3B4c
+3B (manure management) - Fur-bearing Animals,3A2j,3B4hiv
+3B (manure management) - Goats,3A2d,3B4d
+3B (manure management) - Horses,3A2f,3B4e
+3B (manure management) - Mules and Asses,3A2g,3B4f
+3B (manure management) - Non-Dairy Cattle,3A2aii,3B1b
+3B (manure management) - Other,3A2j,3B4h
+3B (manure management) - Poultry,3A2i,3B4g
+3B (manure management) - Rabbit,3A2j,3B4hi
+3B (manure management) - Sheep,3A2c,3B2
+3B (manure management) - Swine,3A2h,3B3
+3F (field burning of agricultural residues),3C1,3F
+5A1a (managed solid waste),4A1,5A1
+5A2 (unmanaged solid waste),4A2,5A2
+5BC (biological treatment and incineration),4B,5B+5C
+5D wastewater (total),4D,5D
