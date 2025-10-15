@@ -8,8 +8,6 @@
 #SBATCH --time=3:00:00
 #SBATCH --mem=24G
 #SBATCH --partition=cpu2019
-#SBATCH --mail-user=mingke.li@ucalgary.ca
-#SBATCH --mail-type=END,FAIL
 
 # Set script directory
 SCRIPTDIR=/home/mingke.li/methane_grid_calculation_ARC

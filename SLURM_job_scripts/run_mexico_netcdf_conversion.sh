@@ -8,9 +8,6 @@
 #SBATCH --time=5:00:0
 #SBATCH --mem=16G
 #SBATCH --partition=cpu2019
-#SBATCH --mail-user=mingke.li@ucalgary.ca
-#SBATCH --mail-type=END,FAIL
-
 # Set script directory
 SCRIPTDIR=/home/mingke.li/methane_grid_calculation_ARC
 cd $SCRIPTDIR || { echo "Directory $SCRIPTDIR not found"; exit 1; }
