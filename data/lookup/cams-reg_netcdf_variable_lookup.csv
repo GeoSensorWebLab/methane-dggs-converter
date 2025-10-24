@@ -1,0 +1,13 @@
+variable,,GNFR14,CRF,IPCC2006
+A_PublicPower,,A,1.A.1.a,1A1a
+B_Industry,,B,1.A.1.b+1.A.1.c+1.A.2+1.B.1.b+2.A+2.B+2.C+2.H,1A1b+1A1c+1A2+1B1c+2A+2B+2C+2H
+C_OtherStationaryComb,,C,1.A.4+1.A.5.a,1A4+1A5a
+D_Fugitives,,D,1.B.1.a+1.B.1.c+1.B.2+1.C,1B1a+1B1b+1B2+1C
+E_Solvents,,E,2.D+2.G.3+2.G.4+2.H.3,2D+2G3+2G4+2H3
+F_RoadTransport,,F,1.A.3.b,1A3b
+G_Shipping,,G,1.A.3.d+1.A.4.c.iii,1A3dii+1A4ciii
+H_Aviation,,H,1.A.3.a,1A3aii
+I_OffRoad,,I,1.A.3.c+1.A.4.c.ii+1.A.2.g.vii+1.A.4.a.ii+1.A.4.b.ii+1.A.3.e+1.A.5.b,1A3c+1A4cii+1A3e+1A5b
+J_Waste,,J,5,4
+K_AgriLivestock,,K,3.A+3.B,3A
+L_AgriOther,,L,3.D+3.E+3.F+3.J+3.H+3.I+3.J,3C

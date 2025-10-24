@@ -57,7 +57,7 @@ Scripts for converting NetCDF data to DGGS using pre-calculated grids:
    - Uses external area data for calculations
 
 9. **`global_edgar_netcdf_to_dggs_optimize.py`**
-   - Converts EDGAR global NetCDF data to DGGS
+   - Converts EDGAR v8.0 global NetCDF data to DGGS
    - Optimized for large-scale processing
    - Handles 1970-2022 EDGAR v8.0 greenhouse gas CH4 emissions
    - Multi-year processing capability
@@ -95,10 +95,18 @@ Scripts for converting NetCDF data to DGGS using pre-calculated grids:
     - Processes 2021 US oil and gas emissions
     - No area calculation needed (total emissions per pixel)
 
+16. **`europe_netcdf_to_dggs_converter.py`**
+    - Converts CAMS-REG-ANT Europe NetCDF data to DGGS
+    - Handles units (Tg) converted to Mg (1 Tg = 1e6 Mg)
+    - Processes 2005-2022 European anthropogenic methane emissions
+    - Uses 0.05° × 0.10° resolution (lat × lon)
+    - Aggregates ~14 variables to IPCC2006 codes via lookup table
+    - Uses raster-first area-weighted distribution with parallel processing
+
 ### 📁 `scripts/geotiff_conversion/`
 Scripts for converting GeoTIFF raster data to DGGS:
 
-16. **`china_tiff_to_dggs_converter.py`**
+17. **`china_tiff_to_dggs_converter.py`**
     - Converts China GeoTIFF methane emission rasters to DGGS
     - Handles units (Mg km⁻² a⁻¹)
     - Processes 1990-2020 time series data
@@ -107,7 +115,7 @@ Scripts for converting GeoTIFF raster data to DGGS:
 ### 📁 `scripts/csv_conversion/`
 Scripts for converting CSV point data to DGGS:
 
-17. **`ind_aus_csv_to_dggs_converter.py`**
+18. **`ind_aus_csv_to_dggs_converter.py`**
     - Converts India/Australia coal methane emissions CSVs to DGGS
     - Handles point data (lat, lon, value in ton/year)
     - Processes 2018 coal mining emissions
@@ -116,29 +124,29 @@ Scripts for converting CSV point data to DGGS:
 ### 📁 `scripts/utilities/`
 Utility scripts for data processing, combining, and cleanup:
 
-18. **`combine_geojson_folder.py`**
+19. **`combine_geojson_folder.py`**
     - Combines individual country DGGS files into a single file
     - Generates: `data/geojson/global_countries_dggs_merge.geojson`
 
-19. **`merge_country_offshore_dggs_geometries.py`**
+20. **`merge_country_offshore_dggs_geometries.py`**
     - Merges country and offshore DGGS grids
     - Handles duplicate zoneID removal
 
 ### 📁 `scripts/analysis/`
 Analysis scripts for post-processing and summarizing DGGS-converted datasets:
 
-20. **`create_dggs_coverage_geojsons.py`**
+21. **`create_dggs_coverage_geojsons.py`**
     - Creates dissolved and simplified DGGS coverage geometries for each inventory CSV
     - Extracts unique DGGS cell IDs from CSV files and filters corresponding geometries
     - Supports parallel processing for large datasets with automatic CPU detection
 
-21. **`compute_sectoral_breakdown.py`**
+22. **`compute_sectoral_breakdown.py`**
     - Computes sectoral methane emission totals for selected national datasets
     - Aggregates emissions by four broad IPCC sectors (Energy, Industrial Processes, Agriculture/Forestry, Waste)
     - Processes US, Canada, Mexico, China, and Switzerland datasets
     - Generates temporal breakdowns for China (1990-2020) and US (2012-2018)
 
-22. **`generate_dggs_dataset_summary.py`**
+23. **`generate_dggs_dataset_summary.py`**
     - Generates descriptive summary table for DGGS-converted methane inventory CSVs
     - Computes dataset metadata: number of DGGS cells, resolution, year range, IPCC categories
     - Uses configuration mappings for resolution and year range information
@@ -213,20 +221,21 @@ All conversion processes output standardized CSV files with DGGS cell values in 
 
 The project processes various gridded methane emission inventories from multiple sources. Below is a comprehensive table of all datasets used:
 
-| Dataset Name | Spatial Coverage | CRS | Resolution | Temporal Coverage | Files | CRT/IPCC | Sector | Unit | Area Unit | Note | URL |
-|--------------|-----------------|-----|------------|-------------------|-------|----------|--------|------|-----------|------|-----|
-| EDGAR v8.0 Greenhouse Gas CH4 Emissions | Global | EPSG 4326 | 0.1° × 0.1° | 1970-2022 | 1272 | IPCC 2006 code | Agriculture, chemical, fuel, energy, natural gas, petroleum, waste | ton/year | - | - | [EDGAR](https://data.jrc.ec.europa.eu/dataset/b54d8149-2864-4fb9-96b9-5fd3a020c224) |
-| U.S. Anthropogenic Methane Emissions | U.S. | EPSG 4326 | 0.1° × 0.1° | 2012-2018 | 7 | IPCC 2006 code | Coal mines, oil and gas, residential combustion, solid waste, wastewater | molecules CH₄ cm⁻² s⁻¹ | cm² | - | [US EPA](https://zenodo.org/records/8367082) |
-| Mexico Anthropogenic Methane Emissions | Mexico | EPSG 4326 | 0.1° × 0.1° | 2015 | 1 | IPCC 2006 code | Coal mines, oil and gas, residential combustion, solid waste, wastewater | Mg a⁻¹ km⁻² | - | - | [Mexico Inventory](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5FUTWM) |
-| Global Fuel Exploitation Inventory GFEI | Global | EPSG 4326 | 0.1° × 0.1° | 2016-2020 | 21(v1) 20(v2) 20(v3) | CRT | Coal mines, oil and gas | Mg a⁻¹ km⁻² | - | Multiple versions available | [GFEI](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FHH4EUM&version=&q=&fileTypeGroupFacet=&fileTag=&fileSortField=&fileSortOrder=&tagPresort=true&folderPresort=true) |
-| Canada Anthropogenic Methane Emissions | Canada | EPSG 4326 | 0.1° × 0.1° | 2018 | 1 | IPCC 2006 code | Coal mines, oil and gas, residential combustion, solid waste, wastewater | Mg a⁻¹ km⁻² | - | - | [Canada Inventory](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CC3KLO) |
-| Gridded New York State methane emissions inventory (GNYS) | New York State | UTM Zone 18N projection EPSG:26918 | 100m × 100m | 2020 | 1 | IPCC 2006 code | Coal mines, oil and gas, residential combustion, solid waste, wastewater | kg m⁻² s⁻¹ | m² | - | [NYS Inventory](https://zenodo.org/records/16761163) |
-| US oil and gas methane emissions | U.S. | EPSG 4326 | 0.1° × 0.1° | 2021 | 1 | IPCC 2006 code | Oil and gas | kg/h | - | - | [US OG](https://zenodo.org/records/10909191) |
-| Carbon Monitoring System (CMS) data sets on Methane (CH₄) Flux | Canada and Mexico | EPSG 4326 | 0.1° × 0.1° | 2010 - Mexico 2013 - Canada | 2 | IPCC 2006 code | Oil and gas | molecules CH₄ cm⁻² s⁻¹ | cm² | - | [CMS Mexico](https://disc.gsfc.nasa.gov/datasets/CMS_CH4_FLX_MX_1/summary?keywords=methane%20emissions%20from%20Canadian%20and%20Mexican%20oil%20and%20gas%20systems), [CMS Canada](https://disc.gsfc.nasa.gov/datasets/CMS_CH4_FLX_CA_1/summary?keywords=methane%20emissions%20from%20Canadian%20and%20Mexican%20oil%20and%20gas%20systems) |
-| Swiss Greenhouse Gas Inventory (SGHGI) | Switzerland | CH1903/LV03 EPSG:21781 | 500 m × 500 m | 2011 | 1 | IPCC 2006 code | Coal mines, oil and gas, residential combustion, solid waste, wastewater | g m⁻² yr⁻¹ | m² | - | [SGHGI](https://doi.pangaea.de/10.1594/PANGAEA.828262) |
-| China coal mine methane emissions | China | EPSG 4326 | 0.25° × 0.25° | 2011 | 1 | IPCC 2006 code | Coal mines | Mg km⁻² a⁻¹ | - | - | [China SACMS](https://forms.gle/NGMXUTfMumMFkMZPA) |
-| India and Australia coal mine methane emissions | India and Australia | EPSG 4326 | 0.1° × 0.1° | 2018 | 2 (csv) | IPCC 2006 code | Coal mines | ton/year | - | Provided as CSV | [India/Australia](https://zenodo.org/records/6222441) |
-| CHN-CH₄ Anthropogenic Methane Emission Inventory of China | China | Krasovsky 1940 Albers projection | 0.1° × 0.1° | 1990-2020 | 8×31 (tiff) | IPCC 2006 code | Coal mines, oil and gas, residential combustion, solid waste, wastewater | Mg km⁻² a⁻¹ | - | Provided as TIFF | [China CHN-CH₄](https://zenodo.org/records/15107383) |
+| Dataset Name | Spatial Coverage | CRS | Resolution | Temporal Coverage | Files | Category Code Scheme | Sector | Unit | URL |
+|--------------|-----------------|-----|------------|-------------------|-------|----------|--------|------|-----|
+| EDGAR v8.0 Greenhouse Gas CH4 Emissions | Global | EPSG 4326 | 0.1° × 0.1° | 1970-2022 | 1272 | IPCC 2006 and IPCC 1996 | Agriculture, chemical, fuel, energy, natural gas, petroleum, waste | ton/year | [EDGAR](https://data.jrc.ec.europa.eu/dataset/b54d8149-2864-4fb9-96b9-5fd3a020c224) |
+| U.S. Anthropogenic Methane Emissions | U.S. | EPSG 4326 | 0.1° × 0.1° | 2012-2018 | 7 | CRT | Coal mines, oil and gas, residential combustion, solid waste, wastewater | molecules CH₄ cm⁻² s⁻¹ | [US EPA](https://zenodo.org/records/8367082) |
+| Mexico Anthropogenic Methane Emissions | Mexico | EPSG 4326 | 0.1° × 0.1° | 2015 | 1 | IPCC 2006 code | Coal mines, oil and gas, residential combustion, solid waste, wastewater | Mg a⁻¹ km⁻² | [Mexico Inventory](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5FUTWM) |
+| Global Fuel Exploitation Inventory GFEI | Global | EPSG 4326 | 0.1° × 0.1° | 2016(v1) 2019(v2) 2020(v3) | 21(v1) 20(v2) 20(v3) | IPCC 2006 | Coal mines, oil and gas | Mg a⁻¹ km⁻² | [GFEI](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FHH4EUM&version=&q=&fileTypeGroupFacet=&fileTag=&fileSortField=&fileSortOrder=&tagPresort=true&folderPresort=true) |
+| Canada Anthropogenic Methane Emissions | Canada | EPSG 4326 | 0.1° × 0.1° | 2018 | 1 | CRT | Coal mines, oil and gas, residential combustion, solid waste, wastewater | Mg a⁻¹ km⁻² | [Canada Inventory](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CC3KLO) |
+| Gridded New York State methane emissions inventory (GNYS) | New York State | UTM Zone 18N projection EPSG:26918 | 100m × 100m | 2020 | 1 | IPCC 1996 | Coal mines, oil and gas, residential combustion, solid waste, wastewater | kg m⁻² s⁻¹ | [NYS Inventory](https://zenodo.org/records/16761163) |
+| US oil and gas methane emissions | U.S. | EPSG 4326 | 0.1° × 0.1° | 2021 | 1 | - | Oil and gas | kg h⁻¹ | [US OG](https://zenodo.org/records/10909191) |
+| Carbon Monitoring System (CMS) data sets on Methane (CH₄) Flux | Canada and Mexico | EPSG 4326 | 0.1° × 0.1° | 2013, 2010 | 2 | - | Oil and gas | molecules CH₄ cm⁻² s⁻¹ | [CMS Mexico](https://disc.gsfc.nasa.gov/datasets/CMS_CH4_FLX_MX_1/summary?keywords=methane%20emissions%20from%20Canadian%20and%20Mexican%20oil%20and%20gas%20systems), [CMS Canada](https://disc.gsfc.nasa.gov/datasets/CMS_CH4_FLX_CA_1/summary?keywords=methane%20emissions%20from%20Canadian%20and%20Mexican%20oil%20and%20gas%20systems) |
+| Swiss Greenhouse Gas Inventory (SGHGI) | Switzerland | CH1903/LV03 EPSG:21781 | 500 m × 500 m | 2011 | 1 | - | Coal mines, oil and gas, residential combustion, solid waste, wastewater | g m⁻² a⁻¹ | [SGHGI](https://doi.pangaea.de/10.1594/PANGAEA.828262) |
+| CAMS-REG-ANT European Anthropogenic Methane Emissions | Europe | EPSG 4326 | 0.05° × 0.10° | 2005-2022 | 1 | GNFR14 | Multiple anthropogenic sectors | Tg or kg m⁻² s⁻¹ | [CAMS-REG](https://eccad.sedoo.fr/#/metadata/608) |
+| China coal mine methane emissions | China | EPSG 4326 | 0.25° × 0.25° | 2011 | 1 | - | Coal mines | Mg a⁻¹ km⁻² | [China SACMS](https://forms.gle/NGMXUTfMumMFkMZPA) |
+| India and Australia coal mine methane emissions | India and Australia | EPSG 4326 | 0.1° × 0.1° | 2018 | 2 (csv) | - | Coal mines | metric ton a⁻¹ | [India/Australia](https://zenodo.org/records/6222441) |
+| CHN-CH₄ Anthropogenic Methane Emission Inventory of China | China | Krasovsky 1940 Albers projection | ~10 × 10 km | 1990-2020 | 8×31 (tiff) | - | Coal mines, oil and gas, residential combustion, solid waste, wastewater | Mg a⁻¹ km⁻² | [China CHN-CH₄](https://zenodo.org/records/15107383) |
 
 
 ### Dataset Characteristics
@@ -303,6 +312,7 @@ python scripts/netcdf_conversion/us_netcdf_to_dggs_converter.py
 python scripts/netcdf_conversion/mexico_netcdf_to_dggs_converter.py
 python scripts/netcdf_conversion/swiss_netcdf_to_dggs_converter.py
 python scripts/netcdf_conversion/china_SACMS_netcdf_to_dggs_converter.py
+python scripts/netcdf_conversion/europe_netcdf_to_dggs_converter.py
 
 # Specialized datasets
 python scripts/netcdf_conversion/cms_netcdf_to_dggs_converter.py
@@ -329,3 +339,5 @@ sbatch SLURM_job_scripts/run_canada_netcdf_conversion.sh
 sbatch SLURM_job_scripts/run_edgar_netcdf_conversion.sh
 sbatch SLURM_job_scripts/run_china_tiff_conversion.sh
 ```
+
+
